@@ -73,7 +73,7 @@ header .texto .nombre span {
     font-weight: 300; 
 }
 
-header.texto h3 {
+header .texto h3 {
     font-weight: 300;
     font-size: 25px;
     font-style: italic;
@@ -107,7 +107,7 @@ header.texto h3 {
 .main .acerca-de article {
     background: #fff;
     padding: 40px;
-    width: 50px;
+    width: 600px;
     position: relative;
     top: 500px;
     z-index: 1;
