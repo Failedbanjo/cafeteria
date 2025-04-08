@@ -3,131 +3,155 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="widt=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
 
     <title>Cafe DulceAroma</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+   <!--Seccion main-->
+   <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            width: 100%;
+            background-color: azure;
+        }
+        nav {
+            width: 70%;
+            background-color: blueviolet;
+        }
+        .derecho {
+            width: 30%;
+            background-color: blue;
+            margin-top: -50px;
+            margin-left: 800px;
+            padding: 10px 20px 30px 50px;
+        }
+    </style>
 </head>
 
 <body>
-
+    
     <header>
-        <div >
-            <nav >
-               <a href="#" id="btn-acerca-de">Acerca de</a>
-               <a href="#" id="btn-menu">Menú</a>
-               <a href="#" id="btn-galeria">Galería</a>
-               <a href="#" id="btn-ubicacion">Ubicación</a>
+        <div class="contenedor" >
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicacion</a>
             </nav>
-            <div >
-                <h1 >Café <span>San Francisco</span></h1>
-                <h3>Un refugio del tiempo, donde el corazón se abriga entre café y recuerdos.</h3>
+            <div class="texto">
+                <h1 class="nombre">Cafe <span>San Francisco</span></h1>
+                <h3>Un refugio del tiempo, donde el corazon se abriga entre cafe y recuerdos.</h3>
             </div>
 
         </div>
     </header>
     <!--Seccion main-->
-    <section >
-        <!--Sección Acerca de-->
-        <section>
-            <div>
-               <div>
-                   <img src="imagenes/acerca-de.jpg" alt="Acerca de ">
+    <section class="main">
+        <!--Seccion Acerca de-->
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="imagenes/acerca-de.jpg" alt="Acerca de">
                 </div>
                 <article>
                     <h3>Acerca de</h3>
                     <p>
-                     Fundada en 1964 en el corazón histórico de Quito, nuestra cafetería es mucho más que un lugar donde se sirve café; 
-                     es un rincón donde el tiempo parece detenerse, donde cada taza lleva consigo el susurro de generaciones pasadas.
-                     Enmarcada por la arquitectura colonial de la capital del Ecuador, esta cafetería nació como un espacio íntimo en medio
-                     de la agitada vida citadina, y con el pasar de los años, se ha convertido en un refugio emocional para quienes buscan
-                     algo más que una bebida caliente. Aquí, las paredes no solo sostienen ladrillos: guardan secretos, sonrisas y miradas que
-                     se cruzaron por primera vez en medio del aroma inconfundible del café recién pasado. Los muebles de madera antigua, 
-                     las lámparas de hierro forjado, y el eco suave de boleros y tangos, recrean un ambiente acogedor donde cada visitante se 
-                     convierte en parte de una historia viva.
+                        Fundada en 1964 en el corazón histórico de Quito, nuestra cafetería es mucho más que un lugar donde se sirve café;
+                        es un rincón donde el tiempo parece detenerse, donde cada taza lleva consigo el susurro de generaciones pasadas.
+                        Enmarcada por la arquitectura colonial de la capital del Ecuador, esta cafetería nació como un espacio íntimo en medio
+                        de la agitada vida citadina, y con el pasar de los años, se ha convertido en un refugio emocional para quienes buscan
+                        algo más que una bebida caliente. Aquí, las paredes no solo sostienen ladrillos: guardan secretos, sonrisas y miradas que se 
+                        cruzaron por primera vez en medio del aroma inconfundible del café recién pasado. Los muebles de madera antigua, 
+                        las lámparas de hierro forjado, y el eco suave de boleros y tangos, recrean un ambiente acogedor donde cada visitante 
+                        se convierte en parte de una historia viva.
                     </p>
 
                     <p>
-                     Desde sus inicios, la cafetería ha sido testigo de innumerables encuentros: desde tertulias bohemias de artistas y escritores, 
-                     hasta amores que florecieron en mesas junto a la ventana. Con una receta única transmitida de generación en generación, 
-                     el café que servimos es una mezcla artesanal que honra las tradiciones cafeteras del país, 
-                     especialmente de las tierras altas y las zonas cafetaleras más emblemáticas del Ecuador.
-                     Nuestro compromiso no es solo con el sabor, sino con la experiencia: cada detalle ha sido pensado para invitar al
-                     visitante a un viaje emocional hacia épocas más simples, más cálidas, más humanas. 
-                     Hoy, seis décadas después de su apertura, seguimos abriendo nuestras puertas con la misma pasión de siempre, 
-                     convencidos de que el buen café no solo se saborea... se recuerda.
-                
+                        Desde sus inicios, la cafetería ha sido testigo de innumerables encuentros: desde tertulias bohemias de artistas y escritores
+                        , hasta amores que florecieron en mesas junto a la ventana. Con una receta única transmitida de generación en generación, 
+                        el café que servimos es una mezcla artesanal que honra las tradiciones cafeteras del país, 
+                        especialmente de las tierras altas y las zonas cafetaleras más emblemáticas del Ecuador.
+                        Nuestro compromiso no es solo con el sabor, sino con la experiencia: cada detalle ha sido pensado para invitar al
+                        visitante a un viaje emocional hacia épocas más simples, más cálidas, más humanas. 
+                        Hoy, seis décadas después de su apertura, seguimos abriendo nuestras puertas con la misma pasión de siempre, 
+                        convencidos de que el buen café no solo se saborea se recuerda.
+                    
                     </p>
                 </article>
             </div>
         </section>
-        <!--./fin aacerca de-->
-        <!--Inicio Menü-->
+        <!--./fin acerca de-->
+        <!-- Inicio del menu-->
         <section>
             <div>
-                <h3 id="platillos">Menú</h3>
+                <h3 id="platillos">Menu</h3>
                 <div>
                     <div>
                         <article>
                             <p>De comer</p>
                             <div>
-                                <p>Arroz con camarón</p>
+                                <p>Arroz con camaron</p>
                                 <p>$8.50</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes
-                                   arroz, camarón
+                                <p> El arroz con camaron tiene los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                             <div>
-                                <p>Arroz con camarón</p>
+                                <p>Arroz con camaron</p>
                                 <p>$8.50</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes
-                                   arroz, camarón
+                                <p>El arroz con camaron tienes los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                             <div>
                                 <p>Encebollado</p>
-                                <p>3.50</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes
-                                   arroz, camarón
+                                <p>$3.50</p>
+                                <p>El arroz con camaron tiene los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                             <div>
-                                <p>Encebollado mixto</p> 
-                                <p>3.50</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes
-                                   arroz, camarón
+                                <p>Encebollado Mixto</p>
+                                <p>$8.50</p>
+                                <p>El arroz con camaron tiene los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                         </article>
-
-                        <!--./ Fin de la sección comer-->
+                        
+                        <!--./ Fin de la seccion comer-->
                         <article>
                             <p>Bebidas</p>
                             <div>
                                 <p>Jugos Naturales</p>
                                 <p>$4.00</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes
-                                   arroz, camarón
+                                <p>El arroz con camaron tiene los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                             <div>
                                 <p>Colas Personales</p>
                                 <p>$1.00</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes 
-                                   arroz, camarón
+                                <p>El arroz con camaron tiene los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                             <div>
                                 <p>Pilsener</p>
                                 <p>$3.00</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes
-                                    arroz, camarón
+                                <p>El arroz con camaron tiene los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                             <div>
                                 <p>Limonadas</p>
                                 <p>$2.50</p>
-                                <p>El arroz con camarón tiene los siguientes ingredientes
-                                    arroz, camarón
+                                <p>El arroz con camaron tiene los siguientes ingredientes
+                                    arroz, camaron
                                 </p>
                             </div>
                         </article>
@@ -135,9 +159,9 @@
                 </div>
             </div>
         </section>
-        <!--./FIn Menu-->
-        <!--Inicio Galería-->
-        <section id="galeria">
+        <!--./Fin Menu-->
+        <!--Inicio Galeria-->
+        <section>
             <div>
                 <img src="imagenes/1.jpg" alt="">
             </div>
